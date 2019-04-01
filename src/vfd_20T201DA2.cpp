@@ -38,6 +38,7 @@ void vfd_20T201DA2::setCursorPos(int col, int row)
     write(vfd_20T201DA2_SC); write(char_pos);
 }
 
+// delays multiplied by two to get that working on Wemos d1 mini (esp8266)
 void vfd_20T201DA2::write(byte data) {
   for (int i = 0; i < 8; i++) {
     digitalWrite(_DATA_pin, (data >> 7 - i) & 0b00000001);

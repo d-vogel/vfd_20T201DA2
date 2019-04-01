@@ -1,0 +1,29 @@
+###########################################
+# Syntax Coloring Map For vfd_20T201DA2
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+vfd_20T201DA2	KEYWORD1
+CURSOR_MODE	KEYWORD1
+FLASH_RATE	KEYWORD1
+CHAR_FONT	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+begin	KEYWORD2
+clear	KEYWORD2
+setCursorPos	KEYWORD2
+write	KEYWORD2
+setCursorMode	KEYWORD2
+setBrightness	KEYWORD2
+setFlashPos	KEYWORD2
+flashOn	KEYWORD2
+flashOff	KEYWORD2
+setFlashRate	KEYWORD2
+setCharFont	KEYWORD2
+writeText	KEYWORD2
